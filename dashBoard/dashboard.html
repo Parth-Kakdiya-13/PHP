@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <header class="bg-purple-950 p-5 text-white">
+        <nav class="flex justify-between items-center">
+            <h2 class="text-3xl font-semibold">Logo</h2>
+            <ul class="flex max-sm:hidden">
+                <li class="mx-5 text-lg"><a href="#">Home</a></li>
+                <li class="mx-5 text-lg"><a href="#">About</a></li>
+                <li class="mx-5 text-lg"><a href="#">Skills</a></li>
+                <li class="mx-5 text-lg"><a href="#">Assignment</a></li>
+            </ul>
+            <div class="menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <g fill="none">
+                        <path
+                            d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z" />
+                        <path fill="currentColor"
+                            d="M20 17.5a1.5 1.5 0 0 1 .144 2.993L20 20.5H4a1.5 1.5 0 0 1-.144-2.993L4 17.5h16Zm0-7a1.5 1.5 0 0 1 0 3H4a1.5 1.5 0 0 1 0-3h16Zm0-7a1.5 1.5 0 0 1 0 3H4a1.5 1.5 0 1 1 0-3h16Z" />
+                    </g>
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <div class="sideBar">
+        <div class="p-5">
+            <h2 class="text-white text-2xl font-semibold">Sidebar</h2>
+            <div class="absolute top-5 right-5 text-white menu-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+                        <path d="M5 5L12 5L19 5">
+                            <animate fill="freeze" attributeName="d" dur="0.4s"
+                                values="M5 5L12 5L19 5;M5 5L12 12L19 5" />
+                        </path>
+                        <path d="M5 12H19">
+                            <animate fill="freeze" attributeName="d" dur="0.4s" values="M5 12H19;M12 12H12" />
+                        </path>
+                        <path d="M5 19L12 19L19 19">
+                            <animate fill="freeze" attributeName="d" dur="0.4s"
+                                values="M5 19L12 19L19 19;M5 19L12 12L19 19" />
+                        </path>
+                    </g>
+                </svg>
+            </div>
+            <div class="p-3">
+                <button class="w-full p-3 text-left text-white hover:bg-gray-700 ">Menue 1</button>
+                <button class="w-full p-3 text-left text-white hover:bg-gray-700 ">Menue 2</button>
+                <button class="w-full p-3 text-left text-white hover:bg-gray-700 ">Menue 3</button>
+            </div>
+            <h2 class="text-white text-2xl font-semibold">My Social Profile</h2>
+            <div class="p-3">
+                <button class="w-full p-3 text-left text-white hover:bg-gray-700 ">Google Site</button>
+                <button class="w-full p-3 text-left text-white hover:bg-gray-700 ">LinkedIn</button>
+                <button class="w-full p-3 text-left text-white hover:bg-gray-700 ">GitHub</button>
+                <button class="w-full p-3 text-left text-white hover:bg-gray-700 ">Blog</button>
+            </div>
+        </div>
+    </div>
+
+
+    <main class="py-10 max-w-6xl mx-auto">
+        <div class="p-5 mx-auto shadow-xl shadow-gray-500">
+            <div class="bg-purple-950 px-20 py-10 text-center max-md:px-10">
+                <h3 class="text-white font-semibold text-5xl text-center max-md:text-3xl">About Me</h3>
+            </div>
+            <p>This is a sample content about yourself.</p>
+        </div>
+
+        <div class="p-5 mx-auto shadow-xl shadow-gray-500 mt-5">
+            <div class="bg-purple-950 px-20 py-10 text-center max-md:px-10">
+                <h2 class="text-white font-semibold text-5xl text-center max-md:text-3xl">My Skills</h2>
+            </div>
+            <p>These are your skills and expertise.</p>
+        </div>
+
+        <div class="p-5 mx-auto shadow-xl shadow-gray-500 mt-5">
+            <div class="bg-purple-950 px-20 py-10 text-center max-md:px-10">
+                <h2 class="text-white font-semibold text-5xl text-center max-md:text-3xl">Assignments</h2>
+            </div>
+            <div class="grid grid-cols-1 gap-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-7 mt-3">
+                <button class="rounded-lg bg-black text-white px-2 font-bold py-2">Task 1</button>
+                <button class="rounded-lg bg-red-500 px-2 font-bold py-2">Task 2</button>
+                <button class="rounded-lg bg-teal-500 px-2 font-bold py-2">Task 3</button>
+                <button class="rounded-lg bg-lime-500 px-2 font-bold py-2">Task 4</button>
+                <button class="rounded-lg bg-pink-500 px-2 font-bold py-2">Task 5</button>
+                <button class="rounded-lg bg-amber-500 px-2 font-bold py-2">Minor Poject Modules</button>
+                <button class="rounded-lg bg-teal-500 px-2 font-bold py-2">Database Modules</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="">
+        <h3 class="font-semibold text-white bg-purple-950 p-16 text-5xl text-center max-sm:text-3xl max-md:p-10">Footer
+            Title</h3>
+    </footer>
+
+
+
+    <script src="index.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</body>
+
+</html>
